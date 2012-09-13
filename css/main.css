@@ -548,19 +548,19 @@ p {font-family: 'Droid Sans', sans-serif;}
 
 /* Banner */
 header {
-  width:100%;
+  width: 100%;
   display: block;
-  overflow: hidden;
   text-align: center;
-  background:#f4f4f4;
-}
-header{
+  background: #f4f4f4;
   background: #00ADEF;
 }
 header .bg{
   display:block;
   width:100%;
   max-width: 100%;
+}
+header .banner{
+  position: relative;
 }
 .banner .logo{
   float: right;
