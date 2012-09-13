@@ -490,17 +490,21 @@ td {
 /* GLOBAL STYLES */
 /* ************* */
 
+body {background: #004b6c;}
+
 /* ** Test Styles ** */
 /*.sheetBound {background:#666;}*/
 
 /* ** Brand Colors ** */
 .bluePrime {color:#00adee;}
+.blueDark {color:#004b6c;}
 
 /* ** Typography ** */
 h1, h2, h3, h4{
   font-family: Code-Pro-Demo;
   margin: 0;
   line-height: 1em;
+  margin-bottom: 0.5em;
 }
 h1 {}
 h2 {}
@@ -508,6 +512,11 @@ h3 {}
 p {font-family: 'Droid Sans', sans-serif;}
 
 /* ** Containers and Wrappers ** */
+#sheet{
+  display: block;
+  margin: 0 auto;
+  max-width:76em; /* 1216/16=76em */
+}
 .sheetBound{
   display: block;
   margin: auto;
@@ -532,7 +541,7 @@ p {font-family: 'Droid Sans', sans-serif;}
 /* ************** */
 
 /* Navigation */
-#navFloat {width:99.5%; display:block; background:#e2e3e4; padding:0.25%; height:2.5em; text-align:center; z-index:900;}
+#navFloat {position: fixed; top:0; width:99.5%; display:block; background:#e2e3e4; padding:0.25%; height:2.5em; text-align:center; z-index:900;}
 #navFloat span {display:block; padding-top:0.5em;}
 #kcitp_reppin {position: fixed; right:0; top:0; padding:0.2em 1em 0 0; height:2em; z-index: 999;}
 #kcitp_reppin img {height:100%;}
@@ -545,7 +554,7 @@ header {
   text-align: center;
   background:#f4f4f4;
 }
-header .banner{
+header{
   background: #00ADEF;
 }
 header .bg{
@@ -578,36 +587,16 @@ header .bg{
   width: 100%;
   height: auto;
 }
-.padding{
-  width: 88%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.spacer{
-  width: 2%;
-  height: auto;
-}
-.clear{
-  clear: both;
-  height: 0;
-  width: 0;
-}
 
 /* About */
 #about{
+  background: #00ADEF;
   position: relative;
   overflow: hidden;
-  padding: 20px;
 }
-#about .bg{
-  width: auto;
-  height: auto;
-  top: 0;
-  left: 0;
-  position: absolute;
-  min-width: 960px;
-}
+
+#aboutBg {position: absolute;}
+
 #about h1{
   color: #fafafa;
   font-size: 26px;
@@ -616,17 +605,14 @@ header .bg{
   margin-top: .4em;
   color: #fafafa;
 }
-#about .eventInfo{
-  width: 57.5%;
-  float: left;
-}
 #about a img {
     opacity: 0.8;
 }
 #about a img:hover {
     opacity: 1;
 }
-#about .kauffman{
+#eventDetails {float: left; width: 50%;}
+.kauffman{
   float: right;
   width: 40%;
   padding-left: 2.5%;
