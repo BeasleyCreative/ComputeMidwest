@@ -524,6 +524,10 @@ p {font-family: 'Droid Sans', sans-serif;}
   position: relative;
 }
 
+.clear{
+  clear: both;
+}
+
 /* ** Reusable Effects ** *//* Shadow */
 .shadow{
   background: url(../img/drop-shadow.png) repeat-x;
@@ -620,16 +624,44 @@ header .banner{
 
 /* Speakers */
 #speakers{
-  background: #00ADEF;
-  text-align: center;
-  color: #fafafa;
-  padding: 20px;
+  background: url(../img/speakers_bkgnd.png);
 }
 
+#speakers .header{
+  background: #00ADEF;
+  text-align: center;
+  padding: 20px;
+  color: #fafafa;
+}
 
+.speakers{
+  margin-top: -15px;
+}
 
+.speakers,
+.speakers ul{
+  padding: 0;
+  list-style: none;
+}
 
-
+.speaker{
+  clear: both;
+}
+.speaker img{
+  width: 100%;
+  height: auto;
+}
+.speaker > .avatar{
+  float: left;
+  width: 28%;
+}
+.speaker > .body{
+  overflow: hidden;
+  padding-top: 25px;
+}
+.speaker .channel{
+  float: left;
+}
 
 
 

@@ -6,8 +6,8 @@ app = {};
 
 app.speakers = [
   {
-    name: 'Chad Elliott',
-    avatar: 'https://graph.facebook.com/504872282/picture',
+    name: 'Nathan Jones',
+    avatar: 'img/speaker_NaithanJones.gif',
     bio: 'yo yo yo',
     social: {
       twitter: 'http://twitter.com/thethechad',
