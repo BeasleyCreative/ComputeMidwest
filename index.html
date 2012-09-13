@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
-<!-- Consider specifying the language of your content by adding the `lang` attribute to <html> -->
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js lt-ie9"> <![endif]-->
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>   <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>   <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
+    <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <meta charset="utf-8">
 
     <!-- Use the .htaccess and remove these lines to avoid edge case issues.
@@ -17,17 +16,7 @@
 
     <!-- Mobile viewport optimized: h5bp.com/viewport -->
     <meta name="viewport" content="width=device-width">
-
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
-
     <link rel="stylesheet" href="css/main.css">
-
-    <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
-
-    <!-- All JavaScript at the bottom, except this Modernizr build.
-         Modernizr enables HTML5 elements & feature detects for optimal performance.
-         Create your own custom Modernizr build: www.modernizr.com/download/ -->
-    <script src="js/vendor/modernizr-2.5.3.min.js"></script>
 </head>
 <body>
     <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
@@ -95,6 +84,26 @@
           <h1>Speaker List Coming Soon</h1>
         </article>
       </section>
+
+      <ul class="speakers">
+      </ul>
+
+      <script id="speaker" type="text/template">
+        <li class="speaker">
+          <div class="avatar">
+            <img src="<%= m.avatar %>" alt="<%= m.name %>" title="<%= m.name %>"/>
+          </div>
+          <div class="body">
+            <h1 class="name"><%= m.name %></h1>
+            <p class="bio"><%= m.bio %></p>
+            <ul class="social"><%= socialTemplate(m.social) %></ul>
+          </div>
+        </li>
+      </script>
+
+      <script id="social" type="text/template">
+        <li><a href="<%= m.url %>" class="<%= m.type %>"><%= m.name %></a>
+      </script>
     </div>
 
     <!-- JavaScript at the bottom for fast page loading: http://developer.yahoo.com/performance/rules.html#js_bottom -->
@@ -104,9 +113,10 @@
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.7.2.min.js"><\/script>')</script>
 
     <!-- scripts concatenated and minified via build script -->
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/vendor/underscore-1.3.3.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/jquery.fittext.js"></script>
     <!-- end scripts -->
 
     <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
