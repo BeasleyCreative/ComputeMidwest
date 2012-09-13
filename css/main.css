@@ -625,6 +625,7 @@ header .banner{
 /* Speakers */
 #speakers{
   background: url(../img/speakers_bkgnd.png);
+  color: #004B6C;
 }
 
 #speakers .header{
@@ -634,14 +635,15 @@ header .banner{
   color: #fafafa;
 }
 
-.speakers{
-  margin-top: -15px;
-}
-
 .speakers,
 .speakers ul{
   padding: 0;
+  margin: 0;
   list-style: none;
+}
+
+.speakers{
+  margin-top: -15px;
 }
 
 .speaker{
@@ -651,16 +653,27 @@ header .banner{
   width: 100%;
   height: auto;
 }
-.speaker > .avatar{
+.speaker .name{
+  font-size: 1.5em;
+}
+.speaker p{
+  margin: .1em 0;
+}
+.speaker .avatar{
   float: left;
   width: 28%;
+  margin-right: 8px;
 }
-.speaker > .body{
+.speaker .body{
   overflow: hidden;
   padding-top: 25px;
 }
 .speaker .channel{
   float: left;
+}
+.speaker a{
+  text-decoration: none;
+  color: #004B6C;
 }
 
 
