@@ -543,7 +543,7 @@ p {font-family: 'Droid Sans', sans-serif;}
 /* Navigation */
 #navFloat {width:99.5%; display:block; background:#e2e3e4; padding:0.25%; height:2.5em; text-align:center; z-index:900;}
 #navFloat span {display:block; padding-top:0.5em;}
-#kcitp_reppin {position: fixed; right:0; top:0; padding:0.2em 1em 0 0; height:2em; z-index: 999;}
+#kcitp_reppin {padding:0.2em 1em 0 0; height:2em; z-index: 999;}
 #kcitp_reppin img {height:100%;}
 
 /* Banner */
