@@ -621,10 +621,10 @@ header .banner{
 .yeti {float:right; width:38%; padding-left:2%;}
 
 
-#about h1{
+#about *{
   color: #fafafa;
-  font-size: 26px;
 }
+#about h2 {margin:1em 0 0;}
 #about p{
   margin-top: .4em;
   color: #fafafa;
