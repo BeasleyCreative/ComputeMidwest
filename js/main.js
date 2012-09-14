@@ -6,20 +6,20 @@ app = {};
 
 app.speakers = [
   {
-    name: 'Naithan Jones',
-    avatar: 'img/speaker/NaithanJones.gif',
-    bio: 'Naithan “Nait” Jones founded AgLocal in late 2011 to be a web and mobile platform that will match the supply of independent and family farms that produce meat to the demand of wholesale and retail buyers that seek a direct buying connection to these farms.',
-    social: {
-      twitter: 'https://twitter.com/AgLocal'
-    }
-  },
-  {
     name: 'Jason Hoffman',
     avatar: 'img/speaker/JasonHoffman.gif',
     bio: 'Jason the founder and CTO at Joyent, where he is responsible for overseeing the development and implementation of Joyent’s cloud computing technology.',
     social: {
       twitter: 'https://twitter.com/jasonh',
       wikipedia: 'http://en.wikipedia.org/wiki/Joyent'
+    }
+  },
+  {
+    name: 'Naithan Jones',
+    avatar: 'img/speaker/NaithanJones.gif',
+    bio: 'Naithan “Nait” Jones founded AgLocal in late 2011 to be a web and mobile platform that will match the supply of independent and family farms that produce meat to the demand of wholesale and retail buyers that seek a direct buying connection to these farms.',
+    social: {
+      twitter: 'https://twitter.com/AgLocal'
     }
   },
   {
