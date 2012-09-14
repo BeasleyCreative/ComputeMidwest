@@ -690,7 +690,8 @@ header .banner{
   float: left;
 }
 
-
+/* Footer */
+footer{background:#00adee; color:#fafafa; text-align:center;}
 
 
 
