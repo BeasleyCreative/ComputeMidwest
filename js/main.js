@@ -8,16 +8,16 @@ app.speakers = [
   {
     name: 'Nathan Jones',
     avatar: 'img/speaker/NaithanJones.gif',
-    bio: 'yo yo yo',
+    bio: 'Curabitur blandit tempus porttitor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec ullamcorper nulla non metus auctor fringilla. Sed posuere consectetur est at lobortis. Donec sed odio dui.',
     social: {
       twitter: 'http://twitter.com/thethechad',
-      facebook: 'http://facebook.com/thethechad'
+      wikipedia: 'http://facebook.com/thethechad'
     }
   },
   {
     name: 'Jason Hoffman',
     avatar: 'img/speaker/JasonHoffman.gif',
-    bio: 'lskjdflkd',
+    bio: 'Curabitur blandit tempus porttitor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec ullamcorper nulla non metus auctor fringilla. Sed posuere consectetur est at lobortis. Donec sed odio dui.',
     social: {
       google: 'http://google.com'
     }
@@ -25,7 +25,7 @@ app.speakers = [
   {
     name: 'Scott Chacon',
     avatar: 'img/speaker/ScottChacon.gif',
-    bio: 'lskjflkjd',
+    bio: 'Curabitur blandit tempus porttitor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec ullamcorper nulla non metus auctor fringilla. Sed posuere consectetur est at lobortis. Donec sed odio dui.',
     social: {
       twitter: 'http://twitter.com'
     }

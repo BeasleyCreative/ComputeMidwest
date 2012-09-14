@@ -664,13 +664,31 @@ header .banner{
   font-weight: normal;
   margin: 0;
 }
+@media (max-width:600px){
+  .speaker .name{
+    text-align: center;
+  }
+}
 .speaker p{
   margin: .5em 0;
+}
+@media (max-width:600px){
+  .speaker p{
+    text-align: center;
+  }
 }
 .speaker .avatar{
   float: left;
   width: 22%;
   margin-right: 32px;
+}
+@media (max-width:600px){
+  .speaker .avatar{
+    float: none;
+    width: auto;
+    margin-right: 0;
+    text-align: center;
+  }  
 }
 .speaker .avatar img{
   width: 100%;
@@ -686,6 +704,19 @@ header .banner{
 .speaker a{
   text-decoration: none;
   color: #004B6C;
+}
+@media (max-width:600px){
+  .social{
+    float: left;
+    position: relative;
+    left: 50%;
+  }
+}
+@media (max-width:600px){
+  .social .channel{
+    position: relative;
+    right: 50%;
+  }
 }
 .social img{
   width: 40px;
