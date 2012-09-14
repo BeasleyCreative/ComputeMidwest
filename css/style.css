@@ -1,0 +1,25 @@
+/* line 58, social/*.png */
+.social-sprite, .social-twitter, .social-website, .social-wikipedia {
+  background: url('../img/social-sfc37fdddd7.png') no-repeat;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-twitter {
+  background-position: 0 -400px;
+  height: 200px;
+  width: 200px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-website {
+  background-position: 0 0;
+  height: 200px;
+  width: 200px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-wikipedia {
+  background-position: 0 -200px;
+  height: 200px;
+  width: 200px;
+}
