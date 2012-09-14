@@ -497,23 +497,28 @@ td {
 body {background: #004b6c;}
 a.textLink, a.textLink:visited, a.textLink:active {
   color:#fff;
-  background:#0087b7;
+  background:#005e84;
   padding:0.1% 0.5%;
   text-decoration: none;
 }
 
 a.textLink:hover {
   color:#fff;
-  background:#007cac;
+  background:#0087b7;
   border-bottom:0.2em solid #004B6C;
 }
-a img {opacity: 0.8;}
-a img:hover {opacity: 1;}
+
+a img {
+  opacity: 0.8;
+}
+
+a img:hover {
+  opacity: 1;
+}
 
 /* ** Brand Colors ** */
 .bluePrime {color:#00adee;}
 .blueDark {color:#004b6c;}
-.blueAccent {color:#007cac;}
 
 /* ** Typography ** */
 h1, h2, h3, h4{
@@ -605,22 +610,25 @@ header .banner{
   background: #00ADEF;
   position: relative;
   overflow: hidden;
-  color: #fafafa;
 }
-#about h2 {margin:1em 0 0;}
-#about p{margin-top: .4em;color: #fafafa;}
 
 #aboutBg {position: absolute;}
 #aboutContent article {width:100%; padding-bottom:2em;}
-#aboutContent article .logo {float:right; width: 22%; padding-left:2%;}
-#vageta {position: relative;}
-#vageta img {position:absolute; min-width: 20px; width: 1em; max-width: 2em;}
-#vageta img:hover {min-width: 50px; width: 2em; max-width: 3em;}
+#aboutContent article .logo {float:right; width: 20%; padding-left:2%;}
 #aboutInfo, #eventInfo, #hackathonTeaser {clear:both;}
-#eventInfo, #hackathonTeaser {padding:2em 0;}
+#eventInfo, #hackathonTeaser {padding-top:2em;}
 .kauffman {float:left; width:38%; padding-right:2%;}
 .yeti {float:right; width:38%; padding-left:2%;}
 
+
+#about *{
+  color: #fafafa;
+}
+#about h2 {margin:1em 0 0;}
+#about p{
+  margin-top: .4em;
+  color: #fafafa;
+}
 
 /* Speakers */
 #speakers{
