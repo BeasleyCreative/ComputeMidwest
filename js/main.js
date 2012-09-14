@@ -7,7 +7,7 @@ app = {};
 app.speakers = [
   {
     name: 'Nathan Jones',
-    avatar: 'img/speaker_NaithanJones.gif',
+    avatar: 'img/speaker/NaithanJones.gif',
     bio: 'yo yo yo',
     social: {
       twitter: 'http://twitter.com/thethechad',
@@ -15,12 +15,19 @@ app.speakers = [
     }
   },
   {
-    name: 'Chad Elliott',
-    avatar: 'https://graph.facebook.com/504872282/picture',
-    bio: 'yo yo yo',
+    name: 'Jason Hoffman',
+    avatar: 'img/speaker/JasonHoffman.gif',
+    bio: 'lskjdflkd',
     social: {
-      twitter: 'http://twitter.com/thethechad',
-      facebook: 'http://facebook.com/thethechad'
+      google: 'http://google.com'
+    }
+  },
+  {
+    name: 'Scott Chacon',
+    avatar: 'img/speaker/ScottChacon.gif',
+    bio: 'lskjflkjd',
+    social: {
+      twitter: 'http://twitter.com'
     }
   }
 ]

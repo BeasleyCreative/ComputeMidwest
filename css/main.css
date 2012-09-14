@@ -631,7 +631,7 @@ header .banner{
 
 /* Speakers */
 #speakers{
-  background: url(../img/speakers_bkgnd.png);
+  background: url(../img/bg/speakers.png);
   color: #004B6C;
 }
 
@@ -655,25 +655,29 @@ header .banner{
 
 .speaker{
   clear: both;
+  overflow: hidden;
+  margin-bottom: 25px;
 }
 .speaker img{
   width: 100%;
   height: auto;
 }
 .speaker .name{
-  font-size: 1.5em;
+  font-size: 1.9em;
+  font-weight: normal;
+  margin: 0;
 }
 .speaker p{
-  margin: .1em 0;
+  margin: .5em 0;
 }
 .speaker .avatar{
   float: left;
-  width: 28%;
-  margin-right: 8px;
+  width: 22%;
+  margin-right: 32px;
 }
 .speaker .body{
   overflow: hidden;
-  padding-top: 25px;
+  padding-top: 35px;
 }
 .speaker .channel{
   float: left;
