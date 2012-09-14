@@ -494,7 +494,14 @@ td {
 /* ************* */
 
 /* ** Generals **/
-body {background: #004b6c;}
+html { 
+  background: url(../img/bg/main.jpg) #004b6c no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+html.lt-ie9 {background: #004b6c;}
 a.textLink, a.textLink:visited, a.textLink:active {
   color:#fff;
   background:#0087b7;
@@ -537,6 +544,9 @@ p {font-family: 'Droid Sans', sans-serif;}
   display: block;
   margin: 0 auto;
   max-width:76em; /* 1216/16=76em */
+  border-bottom:1px solid #004b6c;
+  border-right:1px solid #004b6c;
+  border-left:1px solid #004b6c;
 }
 .sheetBound{
   display: block;
