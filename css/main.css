@@ -658,10 +658,6 @@ header .banner{
   overflow: hidden;
   margin-bottom: 25px;
 }
-.speaker img{
-  width: 100%;
-  height: auto;
-}
 .speaker .name{
   font-size: 1.9em;
   font-weight: normal;
@@ -675,6 +671,10 @@ header .banner{
   width: 22%;
   margin-right: 32px;
 }
+.speaker .avatar img{
+  width: 100%;
+  height: auto;
+}
 .speaker .body{
   overflow: hidden;
   padding-top: 35px;
@@ -685,6 +685,16 @@ header .banner{
 .speaker a{
   text-decoration: none;
   color: #004B6C;
+}
+.social img{
+  width: 40px;
+  height: auto;
+  margin-right: 5px;
+}
+.social .channel{
+  margin-right: 10px;
+  font-size: 18px;
+  float: left;
 }
 
 
