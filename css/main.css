@@ -618,6 +618,7 @@ header .banner{
 #aboutInfo, #eventInfo, #hackathonTeaser {clear:both;}
 #eventInfo, #hackathonTeaser {padding-top:2em;}
 .kauffman {float:left; width:38%; padding-right:2%;}
+.yeti {float:right; width:38%; padding-left:2%;}
 
 
 #about h1{
