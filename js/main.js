@@ -8,26 +8,26 @@ app.speakers = [
   {
     name: 'Nathan Jones',
     avatar: 'img/speaker/NaithanJones.gif',
-    bio: 'Curabitur blandit tempus porttitor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec ullamcorper nulla non metus auctor fringilla. Sed posuere consectetur est at lobortis. Donec sed odio dui.',
+    bio: 'Naithan “Nait” Jones founded AgLocal in late 2011 to be a web and mobile platform that will match the supply of independent and family farms that produce meat to the demand of wholesale and retail buyers that seek a direct buying connection to these farms.',
     social: {
-      twitter: 'http://twitter.com/thethechad',
-      wikipedia: 'http://facebook.com/thethechad'
+      twitter: 'https://twitter.com/AgLocal'
     }
   },
   {
     name: 'Jason Hoffman',
     avatar: 'img/speaker/JasonHoffman.gif',
-    bio: 'Curabitur blandit tempus porttitor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec ullamcorper nulla non metus auctor fringilla. Sed posuere consectetur est at lobortis. Donec sed odio dui.',
+    bio: 'Jason the founder and CTO at Joyent, where he is responsible for overseeing the development and implementation of Joyent’s cloud computing technology.',
     social: {
-      google: 'http://google.com'
+      twitter: 'https://twitter.com/jasonh',
+      wikipedia: 'http://en.wikipedia.org/wiki/Joyent'
     }
   },
   {
     name: 'Scott Chacon',
     avatar: 'img/speaker/ScottChacon.gif',
-    bio: 'Curabitur blandit tempus porttitor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec ullamcorper nulla non metus auctor fringilla. Sed posuere consectetur est at lobortis. Donec sed odio dui.',
+    bio: 'Scott Chacon is CIO of Github, the largest code host in the world. Github recently closed $100m Series A investment, primarily from Andreessen Horowitz – one of the top VC firms in Silicon Valley.',
     social: {
-      twitter: 'http://twitter.com'
+      twitter: 'https://twitter.com/chacon'
     }
   }
 ]
