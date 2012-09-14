@@ -497,14 +497,14 @@ td {
 body {background: #004b6c;}
 a.textLink, a.textLink:visited, a.textLink:active {
   color:#fff;
-  background:#005e84;
+  background:#0087b7;
   padding:0.1% 0.5%;
   text-decoration: none;
 }
 
 a.textLink:hover {
   color:#fff;
-  background:#0087b7;
+  background:#007cac;
   border-bottom:0.2em solid #004B6C;
 }
 
@@ -615,6 +615,9 @@ header .banner{
 #aboutBg {position: absolute;}
 #aboutContent article {width:100%; padding-bottom:2em;}
 #aboutContent article .logo {float:right; width: 20%; padding-left:2%;}
+#vageta {position: relative;}
+#vageta img {position:absolute; min-width: 20px; width: 1em; max-width: 2em;}
+#vageta img:hover {min-width: 50px; width: 2em; max-width: 3em;}
 #aboutInfo, #eventInfo, #hackathonTeaser {clear:both;}
 #eventInfo, #hackathonTeaser {padding-top:2em;}
 .kauffman {float:left; width:38%; padding-right:2%;}
@@ -757,9 +760,10 @@ footer{background:#00adee; color:#fafafa; text-align:center;}
     /* ************** */
     /* SECTION STYLES */
     /* ************** */
+
     
     /* ** About ** */
-    .kauffman, .eventInfo {float:none !important; display: block; width: 100% !important;  }
+    .kauffman, .yeti {float:none !important; display: block; width: 100% !important;  }
     .kauffman {margin-top:2em;}
 }
 @media only screen and (min-width: 35em) {
