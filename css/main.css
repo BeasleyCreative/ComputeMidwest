@@ -740,7 +740,17 @@ footer{background:#00adee; color:#fafafa; text-align:center;}
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 62.5em) {
+    /* All Mobile Sizes (devices and browser) */
+    /* 1000px/16px = 62.5em */
+
+    /* ************** */
+    /* SECTION STYLES */
+    /* ************** */
+    
+    /* ** About ** */
+}
+@media only screen and (max-width: 50em) {
     /* All Mobile Sizes (devices and browser) */
     /* 800px/16px = 50em */
 
