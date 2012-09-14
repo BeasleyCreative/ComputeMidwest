@@ -554,6 +554,9 @@ p {font-family: 'Droid Sans', sans-serif;}
   width: 80%;
   position: relative;
 }
+@media only screen and (min-width: 35em) {
+  .sheetBound {width:90%;}
+}
 
 /* ** Reusable Effects ** *//* Shadow */
 .shadow{
@@ -623,15 +626,28 @@ header .banner{
 }
 
 #aboutBg {position: absolute;}
-#aboutContent article {width:100%; padding-bottom:2em;}
-#aboutContent article .logo {float:right; width: 20%; padding-left:2%;}
+#aboutContent article {padding-bottom:2em;overflow:hidden}
+@media only screen and (max-width:25em){
+  #aboutContent article {padding-bottom:1em}
+}
+#aboutContent article .logo {float:right; width: 20%; margin: 0 0 8px 2%;}
 #vageta {position: relative;}
 #vageta img {position:absolute; min-width: 20px; width: 1em; max-width: 2em;}
 #vageta img:hover {min-width: 50px; width: 2em; max-width: 3em;}
 #aboutInfo, #eventInfo, #hackathonTeaser {clear:both;}
 #eventInfo, #hackathonTeaser {padding-top:2em;}
-.kauffman {float:left; width:38%; padding-right:2%;}
-.yeti {float:right; width:38%; padding-left:2%;}
+@media only screen and (max-width:40em){
+  #eventInfo, #hackathonTeaser {padding-top:0}
+}
+.kauffman {float:left; width:38%; padding-right:2%; margin:auto}
+@media only screen and (max-width:40em){
+  .kauffman {float:none; display: block; width: 100%; margin-top:2em; margin-bottom: 20px;}
+}
+.yeti {float:right; width:38%; margin:auto; margin-left:2%}
+@media only screen and (max-width:40em){
+  .yeti {float:none; display: block; width:100%; margin-bottom:20px; margin-left:0}  
+}
+#hackathonTeaser .body{overflow:hidden}
 
 
 #about *{
@@ -677,7 +693,7 @@ header .banner{
   font-weight: normal;
   margin: 0;
 }
-@media (max-width:600px){
+@media only screen and (max-width:37.5em){
   .speaker .name{
     text-align: center;
   }
@@ -685,7 +701,7 @@ header .banner{
 .speaker p{
   margin: .5em 0;
 }
-@media (max-width:600px){
+@media (max-width:37.5em){
   .speaker p{
     text-align: center;
   }
@@ -695,7 +711,7 @@ header .banner{
   width: 22%;
   margin-right: 32px;
 }
-@media (max-width:600px){
+@media only screen and (max-width:37.5em){
   .speaker .avatar{
     float: none;
     width: auto;
@@ -718,14 +734,14 @@ header .banner{
   text-decoration: none;
   color: #004B6C;
 }
-@media (max-width:600px){
+@media only screen and (max-width:37.5em){
   .social{
     float: left;
     position: relative;
     left: 50%;
   }
 }
-@media (max-width:600px){
+@media only screen and (max-width:37.5em){
   .social .channel{
     position: relative;
     right: 50%;
@@ -744,53 +760,6 @@ header .banner{
 
 /* Footer */
 footer{background:#00adee; color:#fafafa; text-align:center;}
-
-
-
-/* ==|== media queries ======================================================
-   EXAMPLE Media Query for Responsive Design.
-   This example overrides the primary ('mobile first') styles
-   Modify as content requires.
-   ========================================================================== */
-
-@media only screen and (max-width: 62.5em) {
-    /* All Mobile Sizes (devices and browser) */
-    /* 1000px/16px = 62.5em */
-
-    /* ************** */
-    /* SECTION STYLES */
-    /* ************** */
-    
-    /* ** About ** */
-}
-@media only screen and (max-width: 50em) {
-    /* All Mobile Sizes (devices and browser) */
-    /* 800px/16px = 50em */
-
-    /* ************** */
-    /* SECTION STYLES */
-    /* ************** */
-
-    
-    /* ** About ** */
-    .kauffman, .yeti {float:none !important; display: block; width: 100% !important;  }
-    .kauffman {margin-top:2em;}
-}
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
-
-    /* ************* */
-    /* GLOBAL STYLES */
-    /* ************* */
-
-    /* ** Containers and Wrappers ** */
-    .sheetBound {width:90%;}
-
-
-
-}
-
-
 
 /* ==|== non-semantic helper classes ========================================
    Please define your styles before this section.
