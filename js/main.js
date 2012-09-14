@@ -6,7 +6,7 @@ app = {};
 
 app.speakers = [
   {
-    name: 'Nathan Jones',
+    name: 'Naithan Jones',
     avatar: 'img/speaker/NaithanJones.gif',
     bio: 'Naithan “Nait” Jones founded AgLocal in late 2011 to be a web and mobile platform that will match the supply of independent and family farms that produce meat to the demand of wholesale and retail buyers that seek a direct buying connection to these farms.',
     social: {
