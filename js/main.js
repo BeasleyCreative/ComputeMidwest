@@ -10,7 +10,7 @@ app.speakers = [
     avatar: 'img/speaker/JasonHoffman.gif',
     bio: 'Jason the founder and CTO at Joyent, where he is responsible for overseeing the development and implementation of Joyent’s cloud computing technology.',
     social: {
-      twitter: 'https://twitter.com/jasonh',
+      twitter: 'http://twitter.com/jasonh',
       wikipedia: 'http://en.wikipedia.org/wiki/Joyent'
     }
   },
@@ -19,7 +19,7 @@ app.speakers = [
     avatar: 'img/speaker/NaithanJones.gif',
     bio: 'Naithan “Nait” Jones founded AgLocal in late 2011 to be a web and mobile platform that will match the supply of independent and family farms that produce meat to the demand of wholesale and retail buyers that seek a direct buying connection to these farms.',
     social: {
-      twitter: 'https://twitter.com/AgLocal'
+      twitter: 'http://twitter.com/naithanjones'
     }
   },
   {
@@ -27,7 +27,7 @@ app.speakers = [
     avatar: 'img/speaker/ScottChacon.gif',
     bio: 'Scott Chacon is CIO of Github, the largest code host in the world. Github recently closed $100m Series A investment, primarily from Andreessen Horowitz – one of the top VC firms in Silicon Valley.',
     social: {
-      twitter: 'https://twitter.com/chacon'
+      twitter: 'http://twitter.com/chacon'
     }
   }
 ]
