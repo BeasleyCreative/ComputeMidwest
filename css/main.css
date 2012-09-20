@@ -586,6 +586,7 @@ header {
   display: block;
   text-align: center;
   background: #00ADEF;
+  position: relative;
 }
 header .bg{
   display:block;
@@ -617,6 +618,12 @@ header .banner{
   width: 100%;
   height: auto;
 }
+
+#bannerWrapper{clear:both; position: absolute; width: 100%; margin-top:1%;}
+#bannerWrapper a img {max-width: 100%;}
+#conferenceInfo {float:left; max-width: 35%;}
+#hackathonInfo {float:right; max-width: 35%;}
+
 
 /* About */
 #about{
