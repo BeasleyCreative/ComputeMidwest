@@ -740,6 +740,7 @@ header .banner{
 .speaker a{
   text-decoration: none;
   color: #004B6C;
+  margin-bottom:0.2em;
 }
 @media only screen and (max-width:37.5em){
   .social{
