@@ -749,13 +749,16 @@ header .banner{
   }
 }
 @media only screen and (max-width:37.5em){
+  .social img {
+    width:1em;
+  }
   .social .channel{
     position: relative;
     right: 50%;
   }
 }
 .social img{
-  width: 40px;
+  width: 1.2em;
   height: auto;
   margin-right: 5px;
 }
