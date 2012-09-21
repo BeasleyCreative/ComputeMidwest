@@ -544,9 +544,9 @@ p {font-family: 'Droid Sans', sans-serif;}
   display: block;
   margin: 0 auto;
   max-width:76em; /* 1216/16=76em */
-  border-bottom:1px solid #004b6c;
-  border-right:1px solid #004b6c;
-  border-left:1px solid #004b6c;
+  border-bottom:1px solid #333;
+  border-right:1px solid #333;
+  border-left:1px solid #333;
 }
 .sheetBound{
   display: block;
@@ -749,9 +749,6 @@ header .banner{
   }
 }
 @media only screen and (max-width:37.5em){
-  .social img {
-    width:1em;
-  }
   .social .channel{
     position: relative;
     right: 50%;
