@@ -540,7 +540,7 @@ h3 {}
 p {font-family: 'Droid Sans', sans-serif;}
 
 /* ** Containers and Wrappers ** */
-#sheet{
+.sheet{
   display: block;
   margin: 0 auto;
   max-width:76em; /* 1216/16=76em */
@@ -576,7 +576,19 @@ p {font-family: 'Droid Sans', sans-serif;}
 
 /* Navigation */
 #navFloat {width:99.5%; display:block; background:#e2e3e4; padding:0.25%; height:2.5em; text-align:center; z-index:900;}
-#navFloat span {display:block; padding-top:0.5em;}
+#navFloat hgroup {border:none;}
+#navFloat hgroup a {
+  color: #004b6c;
+  height: 100%;
+  text-decoration: none;
+  padding:0 0.2em;
+  font-family: 'Code-Pro-Demo', 'Droid-Sans', arial;
+  line-height: 1em;
+}
+#navFloat hgroup a:hover {color:#004B6C;}
+#navFloat hgroup a img{max-width: 100%; height: 100%;}
+#kcitp_reppin {float:right; padding:0.2em 1em 0 0; height:2em; z-index: 999;}
+#kcitp_reppin img {height:100%;}
 #kcitp_reppin {float:right; padding:0.2em 1em 0 0; height:2em; z-index: 999;}
 #kcitp_reppin img {height:100%;}
 
@@ -597,14 +609,14 @@ header .banner{
   position: relative;
 }
 .banner .logo{
-  float: right;
-  width: 21%;
-  margin: -4% 1%;
+  float: left;
+  width: 14%;
+  margin: 0 1%;
 }
 .banner .title{
-  float: right;
+  float: left;
   width: 48%;
-  margin: 1% 0;
+  margin: 1.2% 0;
   vertical-align: top;
 }
 .banner .registration{
