@@ -579,7 +579,7 @@ p {font-family: 'Droid Sans', sans-serif;}
     background-position: 0 0
   }
   to { 
-    background-position: 1300% 600%
+    background-position: 15000px 15000px
   }
 }
 @-webkit-keyframes TILE-ANIMATE {
@@ -587,7 +587,7 @@ p {font-family: 'Droid Sans', sans-serif;}
     background-position: 0 0
   }
   to { 
-    background-position: 0 1300%
+    background-position: 0 15000px
   }
 }
 
@@ -802,7 +802,7 @@ header .banner{
   color:#fff;
 
   -webkit-animation-name: CODE-ANIMATE;
-  -webkit-animation-duration: 100s;
+  -webkit-animation-duration: 1000s;
   -webkit-animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
 }
