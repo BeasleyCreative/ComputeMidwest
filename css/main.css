@@ -574,7 +574,22 @@ p {font-family: 'Droid Sans', sans-serif;}
   z-index: 1;
   margin-bottom: -8px;
 }
-
+@-webkit-keyframes CODE-ANIMATE {
+  from {
+    background-position: 0 0
+  }
+  to { 
+    background-position: 1300% 600%
+  }
+}
+@-webkit-keyframes TILE-ANIMATE {
+  from {
+    background-position: 0 0
+  }
+  to { 
+    background-position: 0 1300%
+  }
+}
 
 
 /* ************** */
@@ -680,6 +695,13 @@ header .banner{
 #speakers{
   background: url(../img/bg/speakers.png);
   color: #004B6C;
+
+  /*
+  -webkit-animation-name: TILE-ANIMATE;
+  -webkit-animation-duration: 100s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  */
 }
 
 #speakers .header{
@@ -778,6 +800,11 @@ header .banner{
 #hackathon {
   background: url('../img/bg/terminalBG.png') #004b6c;
   color:#fff;
+
+  -webkit-animation-name: CODE-ANIMATE;
+  -webkit-animation-duration: 100s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
 }
 #hackStretch {max-width: 100%; width:100%;}
 
