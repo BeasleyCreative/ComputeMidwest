@@ -525,7 +525,9 @@ a img:hover {
 
 /* ** Brand Colors ** */
 .bluePrime {color:#00adee;}
+.blueAccent{color:#007cac;}
 .blueDark {color:#004b6c;}
+.blueLight {color:#8dd6f7;}
 
 /* ** Typography ** */
 h1, h2, h3, h4{
@@ -538,6 +540,9 @@ h1 {}
 h2 {}
 h3 {}
 p {font-family: 'Droid Sans', sans-serif;}
+
+/* ** Content Formatting Globals ** */
+.header{text-align: center; padding:1em 0;}
 
 /* ** Containers and Wrappers ** */
 #sheet{
@@ -558,7 +563,9 @@ p {font-family: 'Droid Sans', sans-serif;}
   .sheetBound {width:90%;}
 }
 
-/* ** Reusable Effects ** *//* Shadow */
+
+/* ** Reusable Effects ** */
+/* Drop Shadow */
 .shadow{
   background: url(../img/drop-shadow.png) repeat-x;
   height: 8px;
@@ -579,6 +586,9 @@ p {font-family: 'Droid Sans', sans-serif;}
 #navFloat span {display:block; padding-top:0.5em;}
 #kcitp_reppin {float:right; padding:0.2em 1em 0 0; height:2em; z-index: 999;}
 #kcitp_reppin img {height:100%;}
+@media only screen and (max-width:40em){
+  #kcitp_reppin {display: none;}  
+}
 
 /* Banner */
 header {
@@ -674,8 +684,6 @@ header .banner{
 
 #speakers .header{
   background: #00ADEF;
-  text-align: center;
-  padding: 20px;
   color: #fafafa;
 }
 
@@ -765,6 +773,13 @@ header .banner{
   font-size: 18px;
   float: left;
 }
+
+/* Contact */
+#contact {background:url('../img/bg/emailUpdatesBG.png') #00adee no-repeat right center; background-size:cover; color:#fff; padding-bottom:2em;}
+#mc_embed_signup{padding:1em; background:#007cac;  max-width:50%; float:left;}
+#mc_embed_signup h2 img {max-width: 10%; width: 1em;}
+#mc_embed_signup label {font-family: 'Code-Pro-Demo'}
+input#mce-EMAIL {margin-top:0.5em; width: 60%;}
 
 /* Footer */
 footer{background:#004b6c; color:#fafafa; text-align:center;}
