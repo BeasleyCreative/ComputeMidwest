@@ -774,6 +774,9 @@ header .banner{
   float: left;
 }
 
+/* Hackthon */
+#hackthonInfo {background: url('../img/bg/terminalBG.gif') #004b6c repeat-y;}
+
 /* Contact */
 #contact {background:url('../img/bg/emailUpdatesBG.png') #00adee no-repeat right center; background-size:cover; color:#fff; padding-bottom:2em;}
 #mc_embed_signup{padding:1em; background:#007cac;  max-width:50%; float:left;}
