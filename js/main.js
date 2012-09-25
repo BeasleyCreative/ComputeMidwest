@@ -103,9 +103,9 @@ $(window).load(function() {
 });
 
 // FAQ Accordions
-$('#faqWrap article p').hide();
-$('#faqWrap article h3').click(function() {
-  $(this).next('#faqWrap article p').slideToggle('slow', function() {
+$('.accordionContent').hide();
+$('.hackWrap article h3').click(function() {
+  $(this).next('.accordionContent').slideToggle('slow', function() {
     // Animation complete.
   });
 

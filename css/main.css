@@ -505,7 +505,7 @@ html.lt-ie9 {background: #004b6c;}
 a.textLink, a.textLink:visited, a.textLink:active {
   color:#fff;
   background:#0087b7;
-  padding:0.1% 0.5%;
+  padding:0.2% 0.5%;
   text-decoration: none;
 }
 
@@ -748,6 +748,11 @@ header .banner{
 .speakers{
   margin-top: -15px;
 }
+@media only screen and (max-width:37.5em){
+  .speakers{
+    margin-top: 1em;
+  }
+}
 
 .speaker{
   clear: both;
@@ -835,12 +840,17 @@ header .banner{
   -webkit-animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
 }
-#faqWrap article h3 {
-  background:#000;
+#hackathon h2 {margin-bottom:1em;}
+div.accordionContent p {height: auto;}
+#bunny {float:right;}
+.hackWrap article h3 {
   line-height: 1.17em;
   padding: 0.2em 0.5em 0.8em;
   cursor: pointer;
+  margin-bottom: 1em;
 }
+#faqWrap article h3 {background:#000;}
+#ruleWrap article h3 {background:#00adee; color:#000;}
 #hackStretch {max-width: 100%; width:100%; margin-top:2em;}
 
 
@@ -871,9 +881,13 @@ input#mce-EMAIL {margin-top:0.5em; width: 60%;}
     font-size: 1em;
   }
 }
+#mc-embedded-subscribe:hover {background:#00adee;}
 
 /* Footer */
 footer{background:#004b6c; color:#fafafa; text-align:center;}
+#footer p {padding:0.3em 0; margin:0 !important;}
+#props {background:#000; padding:0.3em 0;}
+#props span {display:block;}
 
 /* ==|== non-semantic helper classes ========================================
    Please define your styles before this section.
