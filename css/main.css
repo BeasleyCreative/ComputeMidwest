@@ -847,9 +847,30 @@ header .banner{
 /* Contact */
 #contact {background:url('../img/bg/emailUpdatesBG.png') #00adee no-repeat right center; background-size:cover; color:#fff; padding-bottom:2em;}
 #mc_embed_signup{padding:1em; background:#007cac;  max-width:50%; float:left;}
+@media only screen and (max-width:37.5em){
+  #mc_embed_signup{
+    max-width: 100%;
+  }
+}
 #mc_embed_signup h2 img {max-width: 10%; width: 1em;}
 #mc_embed_signup label {font-family: 'Code-Pro-Demo'}
 input#mce-EMAIL {margin-top:0.5em; width: 60%;}
+@media only screen and (max-width:37.5em){
+  input#mce-EMAIL{
+    max-width: 99%;
+    width: 99%;
+    padding:0.5%;
+    border:0;
+  }
+}
+#mc-embedded-subscribe {margin-top: 0.5em; background: #000; color:#fff; border:none; font-family: Code-Pro-Demo, Droid-Sans;}
+@media only screen and (max-width:37.5em){
+  #mc-embedded-subscribe{
+    width: 100%;
+    padding:0.75em 0;
+    font-size: 1em;
+  }
+}
 
 /* Footer */
 footer{background:#004b6c; color:#fafafa; text-align:center;}
