@@ -22,29 +22,40 @@
     <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
          chromium.org/developers/how-tos/chrome-frame-getting-started -->
     <!--[if lt IE 7]><p class="chromeframe">Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=200108316723677";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 
     <!-- Add your site or application content here -->
 
     <nav id="navFloat" class="clearfix">
       <a id="kcitp_reppin" href="http://kcitp.com" target="_blank" alt="KCITP Event Logo" Title="This is a KCITP side event."><img src="img/kcitpEvents_logo.png"></a>
+      <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://twitter.com/computemidwest" data-text="Check out Compute Midwest, a conference on future tech in the midwest, Nov. 8-11 in Kansas City!" data-via="kcitp" data-hashtags="cmw">Tweet</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      <div class="fb-like" data-href="http://www.facebook.com/Computemidwest" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-font="arial"></div>
       <hgroup class="sheet">
-        <a href="#">
+        <a href="#about">
           <img src="img/nav/aboutIcon.png">
           <span>About</span>
         </a>
-        <a href="#">
+        <a href="#speakers">
           <img src="img/nav/speakersIcon.png">
           <span>Speakers</span>
         </a>
-        <a href="#">
+        <a href="#hackathon">
           <img src="img/nav/hackIcon.png">
           <span>Hackathon</span>
         </a>
-        <a href="#">
+        <a href="#tickets">
           <img src="img/nav/priceIcon.png">
           <span>Tickets</span>
         </a>
-        <a href="#">
+        <a href="#contact">
           <img src="img/nav/contactIcon.png">
           <span>Contact</span>
         </a>
@@ -63,6 +74,10 @@
           <img class="title" src="img/CMW_logotypeTitle.png"/>
           <a class="registration" href="http://computemidwest.eventbrite.com" target="_blank" title="This will be active soon!"><img src="img/button/register.png"/></a>          
           <div class="clear"></div>
+        </div>
+        <div id="bannerWrapper" class="clearfix">
+          <a id="conferenceInfo" href="#about"><img src="img/button/conferenceInfo.png"></a>
+          <a id="hackathonInfo" href="#hackathon"><img src="img/button/hackathonInfo.png"></a>
         </div>
         <img class="bg" src="img/bg/hero.jpg" alt="Midwest cities built using electronic components on a circuit board." title="Midwest Tech Rules!">
       </header>

@@ -94,10 +94,27 @@ function capitalizeFirstLetter(string){
   return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
+// Page Loads
+$(window).load(function() {
+  $('header').animate({
+    paddingTop: "2.95em"
+  }, 500 );
+  $('#navFloat').stop().slideDown(500);
+});
+
 // FAQ Accordions
 $('#faqWrap article p').hide();
 $('#faqWrap article h3').click(function() {
-  $('#faqWrap article p').slideToggle('slow', function() {
+  $(this).next('#faqWrap article p').slideToggle('slow', function() {
     // Animation complete.
   });
+
 });
+
+//Smooth Nav Scroll
+$('a').smoothScroll({
+      excludeWithin: ['.links', '.prev', '.next', '.tour'],
+      offset: -47
+    });
+
+

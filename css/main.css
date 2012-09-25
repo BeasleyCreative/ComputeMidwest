@@ -597,23 +597,37 @@ p {font-family: 'Droid Sans', sans-serif;}
 /* ************** */
 
 /* Navigation */
-#navFloat {width:99.5%; display:block; background:#e2e3e4; padding:0.25%; height:2.5em; text-align:center; z-index:900;}
-#navFloat hgroup {border:none;}
+#navFloat {width:99.5%; position:fixed; top:0; display:none; background:#e2e3e4; padding:0.25%; height:2.5em; text-align:left; z-index:900;}
+@media only screen and (max-width:50em){
+  #navFloat {text-align: center;}
+}
+@media only screen and (max-width:39em){
+  #navFloat {visibility: hidden;}
+}
+#navFloat hgroup {border:none; padding:0.5% 0 0 2%; height:75%;}
 #navFloat hgroup a {
   color: #004b6c;
   height: 100%;
   text-decoration: none;
   padding:0 0.2em;
   font-family: 'Code-Pro-Demo', 'Droid-Sans', arial;
-  line-height: 1em;
+  line-height: 0.8em;
+  font-size: 0.8em;
+}
+@media only screen and (min-width:65em){
+  #navFloat hgroup a {line-height: 1.2em; font-size: 1.2em;}  
 }
 #navFloat hgroup a:hover {color:#004B6C;}
 #navFloat hgroup a img{max-width: 100%; height: 100%;}
+#fb-root, .fb-like, .twitter-follow-button, .twitter-share-button {float:right; padding:0.8em 0.3em 0 0;}
+@media only screen and (max-width:50em){
+  #fb-root, .fb-like, .twitter-follow-button, .twitter-share-button {display: none !important;}  
+}
 #kcitp_reppin {float:right; padding:0.2em 1em 0 0; height:2em; z-index: 999;}
 #kcitp_reppin img {height:100%;}
 #kcitp_reppin {float:right; padding:0.2em 1em 0 0; height:2em; z-index: 999;}
 #kcitp_reppin img {height:100%;}
-@media only screen and (max-width:40em){
+@media only screen and (max-width:55em){
   #kcitp_reppin {display: none;}  
 }
 
@@ -624,6 +638,9 @@ header {
   text-align: center;
   background: #00ADEF;
   position: relative;
+}
+@media only screen and (max-width:39em){
+  header {padding-top:0 !important;}
 }
 header .bg{
   display:block;
@@ -822,8 +839,9 @@ header .banner{
   background:#000;
   line-height: 1.17em;
   padding: 0.2em 0.5em 0.8em;
+  cursor: pointer;
 }
-#hackStretch {max-width: 100%; width:100%;}
+#hackStretch {max-width: 100%; width:100%; margin-top:2em;}
 
 
 /* Contact */
