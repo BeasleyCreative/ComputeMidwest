@@ -579,7 +579,7 @@ p {font-family: 'Droid Sans', sans-serif;}
     background-position: 0 0
   }
   to { 
-    background-position: 1300% 600%
+    background-position: 1500px 1500px
   }
 }
 @-webkit-keyframes TILE-ANIMATE {
@@ -806,7 +806,13 @@ header .banner{
   -webkit-animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
 }
+#faqWrap article h3 {
+  background:#000;
+  line-height: 1.17em;
+  padding: 0.2em 0.5em 0.8em;
+}
 #hackStretch {max-width: 100%; width:100%;}
+
 
 /* Contact */
 #contact {background:url('../img/bg/emailUpdatesBG.png') #00adee no-repeat right center; background-size:cover; color:#fff; padding-bottom:2em;}

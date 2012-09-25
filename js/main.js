@@ -93,3 +93,11 @@ function socialTemplate(list){
 function capitalizeFirstLetter(string){
   return string.charAt(0).toUpperCase() + string.slice(1);
 }
+
+// FAQ Accordions
+$('#faqWrap article p').hide();
+$('#faqWrap article h3').click(function() {
+  $('#faqWrap article p').slideToggle('slow', function() {
+    // Animation complete.
+  });
+});
