@@ -850,6 +850,12 @@ div.accordionContent p {height: auto;}
   margin-bottom: 1em;
 }
 #faqWrap article h3 {background:#000;}
+#apiWrap img{float:left; width:23%; padding:1%;}
+@media only screen and (max-width:37.5em){
+  #apiWrap img{
+    width: 31%;
+  }
+}
 #ruleWrap article h3 {background:#00adee; color:#000;}
 #hackStretch {max-width: 100%; width:100%; margin-top:2em;}
 
