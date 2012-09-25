@@ -500,6 +500,7 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  overflow-x: hidden;
 }
 html.lt-ie9 {background: #004b6c;}
 a.textLink, a.textLink:visited, a.textLink:active {
@@ -713,7 +714,6 @@ header .banner{
 }
 #hackathonTeaser .body{overflow:hidden}
 
-
 #about *{
   color: #fafafa;
 }
@@ -863,6 +863,7 @@ div.accordionContent p {height: auto;}
 #hackStretch {max-width: 100%; width:100%; margin-top:2em;}
 
 /* Sponsors */
+#sponsors {background: #8dd6f7;}
 
 /* Contact */
 #contact {background:url('../img/bg/emailUpdatesBG.png') #00adee no-repeat right center; background-size:cover; color:#fff; padding-bottom:2em;}
