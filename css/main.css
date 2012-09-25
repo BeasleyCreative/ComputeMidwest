@@ -873,7 +873,7 @@ input#mce-EMAIL {margin-top:0.5em; width: 60%;}
     border:0;
   }
 }
-#mc-embedded-subscribe {margin-top: 0.5em; background: #000; color:#fff; border:none; font-family: Code-Pro-Demo, Droid-Sans;}
+#mc-embedded-subscribe {margin-top: 0.5em; background: #000; color:#fff; border:none; font-family: 'Droid Sans'; text-transform: uppercase;}
 @media only screen and (max-width:37.5em){
   #mc-embedded-subscribe{
     width: 100%;
