@@ -868,9 +868,11 @@ div.accordionContent p {height: auto;}
 #contact {background:url('../img/bg/emailUpdatesBG.png') #00adee no-repeat right center; background-size:cover; color:#fff; padding-bottom:2em;}
 #mc_embed_signup{padding:2%; background:#007cac;  max-width:45%; float:left;}
 @media only screen and (max-width:37.5em){
-  #mc_embed_signup, #socials{
+  #mc_embed_signup{
+    width:100%;
     max-width: 100%;
     margin-left:0;
+    margin-bottom:1em;
   }
 }
 #mc_embed_signup h2 img {max-width: 10%; width: 1em;}
@@ -894,6 +896,13 @@ input#mce-EMAIL {margin-top:0.5em; width: 60%;}
 }
 #mc-embedded-subscribe:hover {background:#00adee;}
 #socials {float:left; margin-left:2%; max-width:49%;}
+@media only screen and (max-width:37.5em){
+  #socials{
+    width:100%;
+    max-width: 100%;
+    margin-left:0;
+  }
+}
 #socials a {display: block; height: 2em; text-decoration: none; font-weight: bold; margin-bottom: 0.5em}
 #socials a:hover {opacity:0.8;}
 #socials a img {max-height: 100%; padding-right:0.5em;}
