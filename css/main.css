@@ -605,6 +605,9 @@ p {font-family: 'Droid Sans', sans-serif;}
   #navFloat {visibility: hidden;}
 }
 #navFloat hgroup {border:none; padding:0.5% 0 0 2%; height:75%;}
+@media only screen and (min-width:65em){
+  #navFloat hgroup {padding:0.25% 0 0 2%;}  
+}
 #navFloat hgroup a {
   color: #004b6c;
   height: 100%;
@@ -859,13 +862,15 @@ div.accordionContent p {height: auto;}
 #ruleWrap article h3 {background:#00adee; color:#000;}
 #hackStretch {max-width: 100%; width:100%; margin-top:2em;}
 
+/* Sponsors */
 
 /* Contact */
 #contact {background:url('../img/bg/emailUpdatesBG.png') #00adee no-repeat right center; background-size:cover; color:#fff; padding-bottom:2em;}
-#mc_embed_signup{padding:1em; background:#007cac;  max-width:50%; float:left;}
+#mc_embed_signup{padding:2%; background:#007cac;  max-width:45%; float:left;}
 @media only screen and (max-width:37.5em){
-  #mc_embed_signup{
+  #mc_embed_signup, #socials{
     max-width: 100%;
+    margin-left:0;
   }
 }
 #mc_embed_signup h2 img {max-width: 10%; width: 1em;}
@@ -888,6 +893,10 @@ input#mce-EMAIL {margin-top:0.5em; width: 60%;}
   }
 }
 #mc-embedded-subscribe:hover {background:#00adee;}
+#socials {float:left; margin-left:2%; max-width:49%;}
+#socials a {display: block; height: 2em; text-decoration: none; font-weight: bold; margin-bottom: 0.5em}
+#socials a:hover {opacity:0.8;}
+#socials a img {max-height: 100%; padding-right:0.5em;}
 
 /* Footer */
 footer{background:#004b6c; color:#fafafa; text-align:center;}
