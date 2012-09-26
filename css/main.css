@@ -863,7 +863,21 @@ div.accordionContent p {height: auto;}
 #hackStretch {max-width: 100%; width:100%; margin-top:2em;}
 
 /* Sponsors */
-#sponsors {background: #8dd6f7;}
+#sponsors {background: url(../img/bg/speakers.png) #fff; padding-bottom: 2em;}
+#majorSponsors, #minorSponsors {text-align: center;}
+#majorSponsors img, #minorSponsors img {border:1px solid #ccc;}
+#majorSponsors img {width:35%; margin:0 0.5% 2%;}
+@media only screen and (max-width:37.5em){
+  #majorSponsors img{
+    width: 47%;
+  }
+}
+#minorSponsors img {width:20%; margin:0 0.5%;}
+@media only screen and (max-width:37.5em){
+  #minorSponsors img{
+    width: 35%;
+  }
+}
 
 /* Contact */
 #contact {background:url('../img/bg/emailUpdatesBG.png') #00adee no-repeat right center; background-size:cover; color:#fff; padding-bottom:2em;}
