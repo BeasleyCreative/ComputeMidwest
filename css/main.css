@@ -852,6 +852,19 @@ div.accordionContent p {height: auto;}
   cursor: pointer;
   margin-bottom: 1em;
 }
+#prizes article {float:left; width:23%; padding:1%;}
+@media only screen and (max-width:37.5em){
+  #prizes article{
+    width: 31%;
+  }
+}
+#prizes article a {color:#fff;}
+#prizes article a img{max-width:100%; width:100%; opacity:1;}
+#prizes article h3 {color:#00adee; padding-top:0.2em;}
+/*
+.bluePrime {color:#00adee;}
+.blueAccent{color:#007cac;}
+*/
 #faqWrap article h3 {background:#000;}
 #apiWrap img{float:left; width:23%; padding:1%;}
 @media only screen and (max-width:37.5em){
