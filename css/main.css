@@ -882,6 +882,11 @@ div.accordionContent p {height: auto;}
     width: 47%;
   }
 }
+@media only screen and (max-width:37.5em){
+  #midSponsors img{
+    width: 47%;
+  }
+}
 #minorSponsors img {width:20%;}
 @media only screen and (max-width:37.5em){
   #minorSponsors img{
