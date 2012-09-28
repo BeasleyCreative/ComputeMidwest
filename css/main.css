@@ -855,16 +855,12 @@ div.accordionContent p {height: auto;}
 #prizes article {float:left; width:23%; padding:1%;}
 @media only screen and (max-width:37.5em){
   #prizes article{
-    width: 31%;
+    width: 100%;
   }
 }
 #prizes article a {color:#fff;}
 #prizes article a img{max-width:100%; width:100%; opacity:1;}
 #prizes article h3 {color:#00adee; padding-top:0.2em;}
-/*
-.bluePrime {color:#00adee;}
-.blueAccent{color:#007cac;}
-*/
 #faqWrap article h3 {background:#000;}
 #apiWrap img{float:left; width:23%; padding:1%;}
 @media only screen and (max-width:37.5em){
@@ -877,15 +873,16 @@ div.accordionContent p {height: auto;}
 
 /* Sponsors */
 #sponsors {background: url(../img/bg/speakers.png) #fff; padding-bottom: 2em;}
-#majorSponsors, #minorSponsors {text-align: center;}
-#majorSponsors img, #minorSponsors img {border:1px solid #ccc;}
-#majorSponsors img {width:35%; margin:0 0.5% 2%;}
+#sponsors a img {opacity:1;}
+#majorSponsors, #minorSponsors, #midSponsors {text-align: center;}
+#majorSponsors img, #minorSponsors img, #midSponsors img {margin:0 0.5% 2%; border:1px solid #ccc;}
+#majorSponsors img {width:35%;}
 @media only screen and (max-width:37.5em){
   #majorSponsors img{
     width: 47%;
   }
 }
-#minorSponsors img {width:20%; margin:0 0.5%;}
+#minorSponsors img {width:20%;}
 @media only screen and (max-width:37.5em){
   #minorSponsors img{
     width: 35%;
