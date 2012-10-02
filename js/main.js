@@ -8,11 +8,21 @@ app.speakers = [
   {
     name: 'Scott Chacon',
     avatar: 'img/speaker/ScottChacon.gif',
-    bio: 'Scott Chacon is CIO of Github, the largest code host in the world. Github recently closed $100m Series A investment, primarily from Andreessen Horowitz – one of the top VC firms in Silicon Valley.',
+    bio: 'Scott is CIO of Github, the largest code host in the world. Github recently closed $100m Series A investment, primarily from Andreessen Horowitz – one of the top VC firms in Silicon Valley.',
     social: {
       twitter: 'http://twitter.com/chacon',
       wikipedia: 'http://en.wikipedia.org/wiki/Github',
       website: 'http://github.com'
+    }
+  },
+  {
+    name: 'Dan Levin',
+    avatar: 'img/speaker/DanLevin.gif',
+    bio: 'Dan is the COO of Box, a platform that provides "secure, scalable content-sharing", and has been a driving force with Picateers, Intuit, Small Business Group, and Quicken in the past.',
+    social: {
+      twitter: 'https://twitter.com/DanAtBox',
+      wikipedia: 'http://en.wikipedia.org/wiki/Box_(service)',
+      website: 'http://box.com'
     }
   },
   {
