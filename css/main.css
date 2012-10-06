@@ -503,11 +503,11 @@ html {
   overflow-x: hidden;
 }
 html.lt-ie9 {background: #004b6c;}
+a {text-decoration: none;}
 a.textLink, a.textLink:visited, a.textLink:active {
   color:#fff;
   background:#0087b7;
   padding:0.2% 0.5%;
-  text-decoration: none;
 }
 
 a.textLink:hover {
@@ -874,25 +874,12 @@ div.accordionContent p {height: auto;}
 /* Sponsors */
 #sponsors {background: url(../img/bg/speakers.png) #fff; padding-bottom: 2em;}
 #sponsors a img {opacity:1;}
-#majorSponsors, #minorSponsors, #midSponsors {text-align: center;}
-#majorSponsors img, #minorSponsors img, #midSponsors img {margin:0 0.5% 2%; border:1px solid #ccc;}
-#majorSponsors img {width:35%;}
-@media only screen and (max-width:37.5em){
-  #majorSponsors img{
-    width: 47%;
-  }
-}
-@media only screen and (max-width:37.5em){
-  #midSponsors img{
-    width: 47%;
-  }
-}
-#minorSponsors img {width:20%;}
-@media only screen and (max-width:37.5em){
-  #minorSponsors img{
-    width: 35%;
-  }
-}
+#majorSponsors, #minorSponsors, #midSponsors {text-align: center; clear:both;}
+#majorSponsors a, #minorSponsors a, #midSponsors a {display:inline-block; margin:0 0.5% 2%;}
+#majorSponsors img, #minorSponsors img, #midSponsors img {border:1px solid #ccc; max-width:100%;}
+#majorSponsors a {width:30%;}
+#midSponsors a{width: 22%;}
+#minorSponsors a {width:14%;}
 
 /* Contact */
 #contact {background:url('../img/bg/emailUpdatesBG.png') #00adee no-repeat right center; background-size:cover; color:#fff; padding-bottom:2em;}
