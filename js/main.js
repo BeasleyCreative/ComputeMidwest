@@ -16,16 +16,6 @@ app.speakers = [
     }
   },
   {
-    name: 'Dan Levin',
-    avatar: 'img/speaker/DanLevin.gif',
-    bio: 'Dan is the COO of Box, a platform that provides "secure, scalable content-sharing", and has been a driving force with Picateers, Intuit, Small Business Group, and Quicken in the past.',
-    social: {
-      twitter: 'https://twitter.com/DanAtBox',
-      wikipedia: 'http://en.wikipedia.org/wiki/Box_(service)',
-      website: 'http://box.com'
-    }
-  },
-  {
     name: 'Jason Hoffman',
     avatar: 'img/speaker/JasonHoffman.gif',
     bio: 'Jason the founder and CTO at Joyent, where he is responsible for overseeing the development and implementation of Joyent’s cloud computing technology.',
@@ -42,6 +32,26 @@ app.speakers = [
     social: {
       twitter: 'http://twitter.com/naithanjones',
       website: 'http://aglocal.com'
+    }
+  },
+  {
+    name: 'Zach Kaplan',
+    avatar: 'img/speaker/ZachKaplan.gif',
+    bio: 'Kaplan is the CEO of Inventables, a hardware marketplace for designers. He\'s spoken at TED and been covered by Business Week, Fortune, Forbes, CNN, NPR and other leading media outlets as a modern inventor.',
+    social: {
+      twitter: 'http://twitter.com/zkaplan',
+      wikipedia: 'http://en.wikipedia.org/wiki/Zach_Kaplan',
+      website: 'http://inventables.com'
+    }
+  },
+  {
+    name: 'Dan Levin',
+    avatar: 'img/speaker/DanLevin.gif',
+    bio: 'Dan is the COO of Box, a platform that provides "secure, scalable content-sharing", and has been a driving force with Picateers, Intuit, Small Business Group, and Quicken in the past.',
+    social: {
+      twitter: 'https://twitter.com/DanAtBox',
+      wikipedia: 'http://en.wikipedia.org/wiki/Box_(service)',
+      website: 'http://box.com'
     }
   },
   {

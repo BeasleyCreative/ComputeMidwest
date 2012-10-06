@@ -704,7 +704,7 @@ header .banner{
 @media only screen and (max-width:40em){
   #eventInfo, #hackathonTeaser {padding-top:0}
 }
-.kauffman {float:left; width:38%; padding-right:2%; margin:auto}
+.kauffman {float:left; width:38%; padding-right:2%; margin:auto;}
 @media only screen and (max-width:40em){
   .kauffman {float:none; display: block; width: 100%; margin-top:2em; margin-bottom: 20px;}
 }
