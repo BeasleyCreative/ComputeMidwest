@@ -63,7 +63,16 @@ app.speakers = [
       wikipedia: 'http://en.wikipedia.org/wiki/Dwolla',
       website: 'http://dwolla.com'
     }
-  }
+  },
+  {
+    name: 'Michelle Munson',
+    avatar: 'img/speaker/MichelleMunson.gif',
+    bio: 'CEO and Co-Founder of Aspera, a company recognized by GigaOM as a “Top 50 Cloud Innovator". Michelle is co-inventor of Aspera\’s fasp™ transport technology. She has degrees in Electrical Engineering & Physics from K-State and was a Fulbright Scholar at Cambridge University where earned a postgrad diploma in Comp Sci.',
+    social: {
+      twitter: 'http://twitter.com/asperasoft',
+      website: 'http://asperasoft.com'
+   }
+  } 
 ]
 ;//app.speakers
 
