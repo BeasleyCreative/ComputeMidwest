@@ -5,6 +5,15 @@ _.templateSettings.variable = 'm';
 app = {};
 
 app.speakers = [
+   {
+    name: 'Brad Abrams',
+    avatar: 'img/speaker/BradAbrams.gif',
+    bio: 'Brad Abrams is a Product Manager for the Cloud Platform team at Google, where he is responsible for the developer & admin experience for the platform. Previously, he was the Product Unit Manager of the Application Framework team at Microsoft.',
+    social: {
+      twitter: 'https://twitter.com/brada',
+      website: 'http://google.com'
+    }
+  },
   {
     name: 'Scott Chacon',
     avatar: 'img/speaker/ScottChacon.gif',
