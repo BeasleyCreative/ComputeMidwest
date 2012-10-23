@@ -66,7 +66,7 @@ app.speakers = [
   {
     name: 'Ben Milne',
     avatar: 'img/speaker/BenMilne.gif',
-    bio: 'CEO and Co-Founder of Dwolla, an Iowa & California based company that\'s revolutionizing transactions by proving the nation\'s cheapest payment platform (think 25 cents per transaction). Milne was named in Inc as one of the 30 under 30, highlighting the most promising entrepreneurs.',
+    bio: 'CEO and Co-Founder of Dwolla, an Iowa based company that\'s revolutionizing transactions by proving the nation\'s cheapest payment platform (think 25 cents per transaction). Milne was named in Inc as one of the 30 under 30, highlighting the most promising entrepreneurs.',
     social: {
       twitter: 'http://twitter.com/bpmilne',
       wikipedia: 'http://en.wikipedia.org/wiki/Dwolla',
